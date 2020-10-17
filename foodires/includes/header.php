@@ -6,6 +6,8 @@
 		
 	</div>
 
+    <div onclick="remove_class()">
+
     <div class="main_nav">
 		
 		<h2>Unique Restaurant</h2>
@@ -23,7 +25,18 @@
 		<p class="clear"></p>
 		
 	</div>
+    <p class="clear"></p>
 	
+	</div>
+	<div class="nav_section_img">
+		
+		<div class="nav_section_div">
+			
+			<h3>Foodires</h3>
+			
+		</div>
+		
+	</div>
 	
 </header>
 
