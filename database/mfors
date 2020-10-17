@@ -3,3 +3,6 @@ CREATE TABLE `admin` (
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `admin` (`id`, `username`, `password`) VALUES
+(1, 'admin', 'e10adc3949ba59abbe56e057f20f883e');
