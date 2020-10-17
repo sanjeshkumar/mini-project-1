@@ -35,5 +35,15 @@
 </head>
 <body>
 <?php require "includes/header.php"; ?>
+<div class="parallax" onclick="remove_class()">
+	
+	<div class="parallax_head">
+		
+		<h2>Welcome</h2>
+		<h3>We are Excited to Cook special for You</h3>
+		
+	</div>
+	
+</div>
 </body>
 </html>
