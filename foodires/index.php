@@ -83,6 +83,13 @@
 			</div>
 			
 			<p class="left"></p>
+            <div class="icon_holder">
+				
+				<a href="#"><img src="image/icons/Facebook.png" alt="image/icons/Facebook.png" /></a>
+				<a href="#"><img src="image/icons/Google+.png" alt="image/icons/Google+.png"  /></a>
+				<a href="#"><img src="image/icons/Twitter.png" alt="image/icons/Twitter.png"  /></a>
+				
+			</div>
 	
 </div>
 </body>
