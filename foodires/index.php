@@ -43,6 +43,28 @@
 		<h3>We are Excited to Cook special for You</h3>
 		
 	</div>
+    <div class="content" onclick="remove_class()">
+	
+	<a href="reservation.php" class="submit">BOOK A TABLE</a>
+		
+</div>
+<div class="content remove_pad" onclick="remove_class()">
+	
+	<div class="inner_content on_parallax">
+		
+		<h2><span class="fresh">Discover Fresh Menu</span></h2>
+		
+		<div class="parallax_content">
+			
+			<?php echo $result; ?>
+			
+			<p class="clear"></p>
+			
+		</div>
+		
+	</div>
+	
+</div>
 	
 </div>
 </body>
