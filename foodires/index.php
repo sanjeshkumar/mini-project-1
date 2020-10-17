@@ -66,15 +66,21 @@
 	
 </div>
 
-
-<div class="left">
+<div class="content" onclick="remove_class()">
+	
+	<div class="inner_content">
+		
+		<div class="contact">
+			
+			<div class="left">
 				
 				<h3>LOCATION</h3>
 				<p>Buk New Site, New Campus</p>
 				<p>Kano State</p>
 				
 			</div>
-            <div class="left">
+			
+			<div class="left">
 				
 				<h3>CONTACT</h3>
 				<p>08054645432, 07086898709</p>
@@ -83,14 +89,29 @@
 			</div>
 			
 			<p class="left"></p>
-            <div class="icon_holder">
+			
+			<div class="icon_holder">
 				
 				<a href="#"><img src="image/icons/Facebook.png" alt="image/icons/Facebook.png" /></a>
 				<a href="#"><img src="image/icons/Google+.png" alt="image/icons/Google+.png"  /></a>
 				<a href="#"><img src="image/icons/Twitter.png" alt="image/icons/Twitter.png"  /></a>
 				
 			</div>
+			
+		</div>
+		
+	</div>
 	
 </div>
+<div class="footer_parallax" onclick="remove_class()">
+	
+	<div class="on_footer_parallax">
+		
+		<p>&copy; <?php echo strftime("%Y", time()); ?> <span>MyRestaurant</span>. All Rights Reserved</p>
+		
+	</div>
+	
+</div>
+
 </body>
 </html>
