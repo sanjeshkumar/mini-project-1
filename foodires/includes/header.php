@@ -28,6 +28,10 @@
     <p class="clear"></p>
 	
 	</div>
+    </header>
+
+    <div class="responive_nav">
+
 	<div class="nav_section_img">
 		
 		<div class="nav_section_div">
@@ -51,5 +55,5 @@
 		
 	</div>
 	
-</header>
+    </div>
 
