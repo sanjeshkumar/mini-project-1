@@ -37,6 +37,19 @@
 		</div>
 		
 	</div>
+    <div class="nav_section">
+		
+		<ul>
+			
+			<li><a href="index.php"><span class="home">Home</span></a></li>
+			<li><a href="menu.php"><span class="menu">Menu</span></a></li>
+			<li><a href="reservation.php"><span class="reserve">Book Table</span></a></li>
+			<li><a href="gallery.php"><span class="gallery">Gallery</span></a></li>
+			<li><a href="basket.php"><span class="order">Order</span></a></li>
+			
+		</ul>
+		
+	</div>
 	
 </header>
 
