@@ -74,6 +74,15 @@
 				<p>Kano State</p>
 				
 			</div>
+            <div class="left">
+				
+				<h3>CONTACT</h3>
+				<p>08054645432, 07086898709</p>
+				<p>Website@gmail.com</p>
+				
+			</div>
+			
+			<p class="left"></p>
 	
 </div>
 </body>
