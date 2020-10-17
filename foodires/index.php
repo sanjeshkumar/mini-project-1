@@ -65,6 +65,15 @@
 	</div>
 	
 </div>
+
+
+<div class="left">
+				
+				<h3>LOCATION</h3>
+				<p>Buk New Site, New Campus</p>
+				<p>Kano State</p>
+				
+			</div>
 	
 </div>
 </body>
