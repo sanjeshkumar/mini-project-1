@@ -60,3 +60,12 @@
 	}
 	
 ?>
+<?php 
+
+$cartOutput = "";
+$cartTotal = "";
+$chkbtn = "";
+$empty_cart = "";
+$chkprice = "";
+$product_id_array = "";
+?>
