@@ -19,6 +19,8 @@
 		}
         else {
 			
-			$qty = isset($_GET['qty']) ? (int)$_GET['qty'] : 1;
+            $qty = isset($_GET['qty']) ? (int)$_GET['qty'] : 1;
+            foreach ($_SESSION["cart_array"] as $each_item) { 
+                $i++;
     }
     ?>
