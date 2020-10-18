@@ -111,6 +111,13 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 				
         <a href="basket.php?cmd=emptycart">Empty Basket</a>
 								
-							</div>';
+                            </div>';
+                            
+        $chkbtn = '<div class="checkout">
+				
+				<a href="#" onclick="show_overlay(); return false">Checkout</a>
+							
+        </div>';       
+        $product_id_array .= "$foodName-".$each_item['quantity'].", ";             
     }
 ?>
