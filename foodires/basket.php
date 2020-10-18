@@ -149,6 +149,16 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
     <title>foodires</title>
 </head>
 <body>
-    
+<?php require "includes/header.php"; ?>
+<div class="parallax_basket" onclick="remove_class()">
+	
+	<div class="parallax_head_basket">
+		
+		<h2>Your</h2>
+		<h3>Basket</h3>
+		
+	</div>
+	
+</div>
 </body>
 </html>
