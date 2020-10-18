@@ -106,5 +106,11 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
         $pricetotal = $price * $each_item['quantity'];
         $cartTotal = $pricetotal + $cartTotal;
         $x = $i + 1;
+
+        $empty_cart = '<div class="empty_cart">
+				
+        <a href="basket.php?cmd=emptycart">Empty Basket</a>
+								
+							</div>';
     }
 ?>
