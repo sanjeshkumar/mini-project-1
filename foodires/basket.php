@@ -33,5 +33,7 @@
     if ($wasFound == false) {
         array_push($_SESSION["cart_array"], array("item_id" => $fid, "quantity" => $qty));
     }
+    header("location: basket.php"); 
+		exit();
 }
     ?>
