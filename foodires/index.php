@@ -75,8 +75,8 @@
 			<div class="left">
 				
 				<h3>LOCATION</h3>
-				<p>Buk New Site, New Campus</p>
-				<p>Kano State</p>
+				<p>dwarka sector - 19 New Site, New Delhi</p>
+				<p>INDIA</p>
 				
 			</div>
 			
@@ -84,7 +84,7 @@
 				
 				<h3>CONTACT</h3>
 				<p>08054645432, 07086898709</p>
-				<p>Website@gmail.com</p>
+				<p>Website1234@gmail.com</p>
 				
 			</div>
 			
