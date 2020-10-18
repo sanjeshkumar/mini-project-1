@@ -72,5 +72,18 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 		
     $cartOutput = "<h3 style=' text-align: center; font-weight: lighter; padding: 10px 0px; background: #ffeeee; color: #333;'>Your shopping basket is empty</h3>";
     
-}
+} else{
+		
+    $cartOutput = "<div class='single_order_head'>
+            
+                        <h3>Food</h3>
+                        <h3>Price(N)</h3>
+                        <h3>Qty</h3>
+                        <h3>Total</h3>
+                        <h3>Remove</h3>
+                        
+                    </div>";
+                    
+    
+    $i = 0;
 ?>
