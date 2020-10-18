@@ -118,6 +118,37 @@ if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
 				<a href="#" onclick="show_overlay(); return false">Checkout</a>
 							
         </div>';       
-        $product_id_array .= "$foodName-".$each_item['quantity'].", ";             
+        $product_id_array .= "$foodName-".$each_item['quantity'].", ";            
+        $cartOutput .= '<form style="display: inline; padding: 0; margin: 0;" action="basket.php" method="post">
+        <div class="single_order">
+					
+					<p>' . $foodName . '</p>
+					<p>' . $price . '</p>
+					<p><select name="quantity" id="'.$item_id.'" onChange="update_qty(\''.$item_id.'\')"> 
+						'.render_options($each_item['quantity'], $item_id).'
+					</select></p>
+					<p id="ajax_qty_'.$item_id.'">'.$pricetotal.'</p>
+					<p><input name="deleteBtn' . $item_id . '" class="remove" onclick="return verify_choice();" type="submit" value="x" /><input name="index_to_remove" type="hidden" value="' . $i . '" /></p>
+					
+				</div>
+			
+            </form>';
+            $chkprice .= '<input type="hidden" id="chkprice" name="chkprice" value="'.$cartTotal.'" />';
+			$chkfood = '<input type="hidden" id="chkfood" name="chkfood" value="'.$product_id_array.'" />';
+				
+			$i++;
     }
+    $cartTotal = '<p class="p_total"><span>Basket Total</span> : #'.$cartTotal.'</p>';
+}
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodires</title>
+</head>
+<body>
+    
+</body>
+</html>
