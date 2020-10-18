@@ -68,4 +68,9 @@ $chkbtn = "";
 $empty_cart = "";
 $chkprice = "";
 $product_id_array = "";
+if (!isset($_SESSION["cart_array"]) || count($_SESSION["cart_array"]) < 1) {
+		
+    $cartOutput = "<h3 style=' text-align: center; font-weight: lighter; padding: 10px 0px; background: #ffeeee; color: #333;'>Your shopping basket is empty</h3>";
+    
+}
 ?>
